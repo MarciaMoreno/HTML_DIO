@@ -1,40 +1,17 @@
 a { text-decoration: none;}
-ul li { list-style: none;}a
+ul li { list-style: none;}
 body{
-   width: 1200px;   
-   margin-left: 16%;
-   margin-right: 16%;
-   float: center;
-}
-
-/*Formatando MENU - LATERAL... */
-#boton{
-    width: 300px;
-    padding: 30px 10px 30px 10px;
-    margin: 0px 0px 20px 0px;
-    font-size: 22px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(51, 49, 54);
-    background: transparent;
-    border: inset 3px rgb(51, 49, 54); ;
-    -webkit-box-shadow: 24px 9px 31px -9px rgba(92,115,130,1);
-    -moz-box-shadow: 24px 9px 31px -9px rgba(92,115,130,1);
-    box-shadow: 24px 9px 31px -9px rgba(92,115,130,1);
+    width: 1200px;
+    margin: auto;
+    float: center;
 }
 #slogan{
     width: 100px;
+    border-radius: 90px;
 }
 #social{
     width: 50px;
-    -webkit-box-shadow: 24px 9px 31px -9px rgba(92,115,130,1);
-    -moz-box-shadow: 24px 9px 31px -9px rgba(92,115,130,1);
-    box-shadow: 24px 9px 31px -9px rgba(92,115,130,1);
     border-radius: 32px;
-}
-div > img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 .flex{ 
     flex-wrap: wrap; 
@@ -42,7 +19,5 @@ div > img{
     max-width: 100%; 
     margin: 0 auto;
 }
-.flex > div{ flex: 1 1 450px;}
-.col1{ width: 10%;}	.col2{ width: 20%;}	.col3{ width: 30%;}	.col4{ width: 40%;}	.col5{ width: 50%;}	.col6{ width: 60%;}	
-.col7{ width: 70%;}	.col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 100%;}
-
+.col1{ width: 120px;}.col2{ width: 240px;}.col3{ width: 360px;}.col4{ width: 480px;}.col5{ width: 600px;}	.col6{ width: 60%;}	
+.col7{ width: 840px;}.col8{ width: 960px;}.col9{ width: 1080px;}.col10{ width: 1200px;}
