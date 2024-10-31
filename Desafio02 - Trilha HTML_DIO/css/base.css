@@ -21,7 +21,8 @@ body{
     border-radius: 242px 52px 242px;
 }
 #id{
-   width: 500px;
+    border: groove 12px #8288a5;
+    margin-left: 6%;
 }
 #quadro{ 
     width: 200px;
