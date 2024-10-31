@@ -20,6 +20,9 @@ body{
     padding: 40px 20px 40px 20px;
     border-radius: 242px 52px 242px;
 }
+#id{
+   width: 500px;
+}
 #quadro{ 
     width: 200px;
 }
