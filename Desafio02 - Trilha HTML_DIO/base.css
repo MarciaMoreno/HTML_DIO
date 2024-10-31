@@ -3,7 +3,6 @@ ul li { list-style: none;}
 body{
     background-image: url('foto-tema.png');
     background-repeat: no-repeat;
-    margin-left: 20%;
     background-position: 50% 50%;
     background-color: #E6E7EC;
 }
@@ -16,7 +15,12 @@ body{
 .flex > div{ flex: 1 1 450px;}
 .col1{ width: 10%;}	.col2{ width: 20%;}	.col3{ width: 30%;}	.col4{ width: 40%;}	.col5{ width: 50%;}	.col6{ width: 60%;}	
 .col7{ width: 70%;}	.col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 100%;}
-
-#quadro{
+#boton{
+    font-size: 22px; 
+    padding: 40px 20px 40px 20px;
+    border-radius: 242px 52px 242px;
+}
+#quadro{ 
     width: 200px;
 }
+.menu ul li{  display: inline;} 
