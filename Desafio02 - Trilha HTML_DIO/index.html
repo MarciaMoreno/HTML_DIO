@@ -9,56 +9,109 @@
     </head>
     <body>
        <div class="flex">
-        <div class="menu-lateral col3">
-            <nav>
-                <ul>
-                    <li><a href="index.html"><input type="button" name="oneButton" value="HOME" /></a></li>
-                    <li><a href="atendimento.html"><input type="button" name="oneButton" value="Serviços e Consultas" /></a></li>
-                    <li><a href="contato.html"><input type="button" name="oneButton" value="Fale Conosco"/></a></li>
-                    <li><a href="sobre-nos.html"><input type="button" name="oneButton" value="Nossa História"/></a></li>
-                </ul>
-            </nav>
-            <aside>
-                <script type="text/javascript">
-                    function slide1(){
-                        document.getElementById('id').src="../slide/slide1.jpg";
-                        setTimeout("slide2()",5000)
-                        document.getElementById('AId').href="";
-                    }
-                    function slide2(){
-                        document.getElementById('id').src="../slide/slide2.jpeg";
-                        setTimeout("slide3()",5000)
-                        document.getElementById('AId').href="";
-                    }
-                    function slide3(){
-                        document.getElementById('id').src="../slide/slide3.jpg";
-                        setTimeout("slide1()",5000)
-                        document.getElementById('AId').href="";
-                    }
-                </script>
-                <body onLoad = "slide1()">
-                    <a id="AId"><img id="id"></a> 
-                </body>
-            </aside>
-        </div>
-        <div class="main col7">
-            <header>
-
-            </header>
-            <section>
-                <article>
-                    <div>
-
+            <div class="col2">
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><input id="boton" type="button" name="oneButton" value="HOME" /></a></li>
+                        <li><a href="atendimento.html"><input id="boton" type="button" name="oneButton" value="Serviços e Consultas" /></a></li>
+                        <li><a href="contato.html"><input id="boton" type="button" name="oneButton" value="Fale Conosco"/></a></li>
+                        <li><a href="sobre-nos.html"><input id="boton" type="button" name="oneButton" value="Nossa História"/></a></li>
+                    </ul>
+                </nav>
+                <aside>
+                    <script type="text/javascript">
+                        function slide1(){
+                            document.getElementById('id').src="../slide/slide1.jpg";
+                            setTimeout("slide2()",5000)
+                            document.getElementById('AId').href="";
+                        }
+                        function slide2(){
+                            document.getElementById('id').src="../slide/slide2.jpeg";
+                            setTimeout("slide3()",5000)
+                            document.getElementById('AId').href="";
+                        }
+                        function slide3(){
+                            document.getElementById('id').src="../slide/slide3.jpg";
+                            setTimeout("slide1()",5000)
+                            document.getElementById('AId').href="";
+                        }
+                    </script>
+                    <body onLoad = "slide1()">
+                        <a id="AId"><img id="id"></a> 
+                    </body>
+                </aside>
+            </div>
+            <div class="main col8">
+                <header class="flex">
+                    <div class="col2">
+                        <a href=""><img id="social" src="../imagens/instagran.png" alt="Instagran" ></a>
+                        <a href=""><img id="social" src="../imagens/zap-zap.png" alt="Whatsapp" /></a>
                     </div>
-                    <div>
-                        
+                    <div class="col4">
+                        <h1>Clinica Dentária - Prevent Sênior</h1>
+                        <blockquote>Um sorriso e muita saúde num só lugar...</blockquote>
                     </div>
-                </article>
-            </section>
-            <footer>
-
-            </footer>
-        </div>
+                    <div class="col2">
+                        <img id="slogan" src="../imagens/slogan.png" alt="Slogam da Prevent Senio - clinica dentária"/>
+                    </div>
+                </header>
+                <section>
+                    <article class="flex">
+                        <div>
+                            <h2>Conheça nossa equipe de Especialistas.</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odit veritatis non tenetur iure labore veniam? 
+                                Distinctio ad debitis iusto esse minus reiciendis, eius consectetur dolor, sequi, quo neque assumenda!
+                            </p>      
+                        </div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                    </article>
+                    <article class="flex">
+                        <div>
+                            <h2>Dica de como lidar com o mau hálito.</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odit veritatis non tenetur iure labore veniam? 
+                                Distinctio ad debitis iusto esse minus reiciendis, eius consectetur dolor, sequi, quo neque assumenda!
+                            </p>      
+                        </div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                    </article>
+                    <article class="flex">
+                        <div>
+                            <h2>Educação e Higiene Bucal para crianças.</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odit veritatis non tenetur iure labore veniam? 
+                                Distinctio ad debitis iusto esse minus reiciendis, eius consectetur dolor, sequi, quo neque assumenda!
+                            </p>      
+                        </div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                    </article>
+                    <article class="flex">
+                        <div>
+                            <h2>Lista de alimentos para uma boa saúde bucal.</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea odit veritatis non tenetur iure labore veniam? 
+                                Distinctio ad debitis iusto esse minus reiciendis, eius consectetur dolor, sequi, quo neque assumenda!
+                            </p>      
+                        </div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                    </article>
+                </section>                
+            </div>
        </div>
+       <footer>
+        <div class="foot">
+            <p>Prevent Sênior - &copy; 2024 - Brasil</p>
+            <p>suporte@prevent-senior.com.br</p>
+        </div>
+    </footer>
     </body>
 </html>
