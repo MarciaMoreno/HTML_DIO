@@ -1,9 +1,13 @@
 a { text-decoration: none;}
 ul li { list-style: none;}
 body{
-    width: 1200px;
+    width: 1200px; 
     margin: auto;
     float: center;
+    background-image: url("../imagens/foto-tema.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-color: #E6E7EC;
 }
 .flex{ 
     flex-wrap: wrap; 
@@ -13,3 +17,52 @@ body{
 }
 .col1{ width: 120px;}.col2{ width: 240px;}.col3{ width: 360px;}.col4{ width: 480px;}.col5{ width: 600px;}	.col6{ width: 60%;}	
 .col7{ width: 840px;}.col8{ width: 960px;}.col9{ width: 1080px;}.col10{ width: 1200px;}
+
+/* Formtando a ul de midias social e slogan da página....*/
+.social img{
+    margin-right: 1px;
+    float: right;
+}
+#social{
+    width: 50px;
+    border-radius: 62px;
+}
+#slogan{
+    width: 380px;
+    height: 250px;
+    border-radius: 150px;
+    margin-left: 90px;
+}
+.lema{
+    background-color: #E6E7EC;
+}
+
+/* Formtando os botões do menu lateral....*/
+#boton{
+    width: 250px;    
+    padding: 20px 30px 20px 30px;
+    margin: 0px 0px 5px 0px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color: #5A7389;
+    border-radius: 20%;
+}
+#boton:hover{
+    background-color:#2A4D73;
+    color: aliceblue;
+}
+
+/* Formatando o sidebar de anuncios */
+#id{
+    border: inset 12px #2A4D73;
+    margin-left: 5%;
+}
+
+/*Formatando o artigo das paginas */
+
+#quadro{
+    width: 100px;
+    border: inset 4px #2A4D73;
+    border-radius: 10%;
+}
