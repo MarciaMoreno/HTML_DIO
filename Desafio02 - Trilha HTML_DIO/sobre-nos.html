@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="Stylesheet" href="css/base.css" />
+        <title>Clinica Dentária Prevent Sênior</title>
+    </head>
+    <body>
+        <div class="flex">
+            <div class="col3 menu-lateral">
+                <nav>
+                    <div>
+                        <ul>
+                            <li><a href="index.html"><input id="boton" type="button" name="oneButton" value="HOME" /></a></li>
+                            <li><a href="atendimento.html"><input id="boton" type="button" name="oneButton" value="Grade de Consulta"/></a></li>
+                            <li><a href="contato.html"><input id="boton" type="button" name="oneButton" value="Fale Conosco"/></a></li>
+                            <li><a href="sobre-nos.html"><input id="boton" type="button" name="oneButton" value="Nossa História"/></a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <aside>
+                    <script type="text/javascript">
+                        function slide1(){
+                            document.getElementById('id').src="../slide/slide1.jpg";
+                            setTimeout("slide2()",5000)
+                            document.getElementById('AId').href="";
+                        }
+                        function slide2(){
+                            document.getElementById('id').src="../slide/slide2.jpeg";
+                            setTimeout("slide3()",5000)
+                            document.getElementById('AId').href="";
+                        }
+                        function slide3(){
+                            document.getElementById('id').src="../slide/slide3.jpg";
+                            setTimeout("slide1()",5000)
+                            document.getElementById('AId').href="";
+                        }
+                    </script>
+                    <body onLoad = "slide1()">
+                        <a id="AId"><img id="id"></a> 
+                    </body>
+                </aside>
+            </div>
+            <div class="col7">
+
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+    </body>
+</html>
