@@ -84,6 +84,9 @@ body{
     border: inset 4px #2A4D73;
     border-radius: 10%;
 }
+#quadro2{
+    width: 300px;
+}
 .section{
     margin-top: 220px;
     float: right;
@@ -100,6 +103,9 @@ body{
     background-color: #E6E7EC;
     opacity: 0.8;
     font-size: 18px;
+    padding: 10px;
+    text-indent: 32px;
+    text-align: justify;
 }
 
 /* Formatando o foot da página */
