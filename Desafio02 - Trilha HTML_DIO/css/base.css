@@ -1,4 +1,5 @@
 a { text-decoration: none;}
+a:hover{ box-shadow:  0px 12px 32px #5A7389;}
 ul li { list-style: none;}
 body{
     width: 1200px; 
@@ -65,7 +66,7 @@ body{
     color: aliceblue;
 }
 .menu-lateral{
-    background-color: #E6E7EC;
+    background-color: #C9D1DC;
     opacity: 0.8;
 }
 
@@ -89,11 +90,11 @@ body{
 }
 .section h2{
     border-radius: 12%;
-    background-color: #788591;
+    background-color: #5A7389;
     color: #fff;
     font-size: 18px;
     padding: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .section p{
     background-color: #E6E7EC;
@@ -103,7 +104,7 @@ body{
 
 /* Formatando o foot da página */
 .foot{
-    background-color: #788591;
+    background-color: #5A7389;
     color: #fff;
     font-size: 22px;
     text-align: center;
