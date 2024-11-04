@@ -4,7 +4,7 @@ ul li { list-style: none;}
 h2,h3,h4,h5{
     padding: 15px;
     font-size: 20px;
-    background-color: #2A4D73;
+    background-color: #5A7389;
     color: #fff;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 22px;
@@ -37,7 +37,33 @@ contato.html
 sobre-nos.html*/
 
 #boton{
-    width: 80px;
+    width: 250px;    
+    padding: 20px 30px 20px 30px;
+    margin: 0px 0px 5px 0px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: #5A7389;
+    border-radius: 20%;
 }
+#boton:hover{  background-color:#2A4D73; color: aliceblue; }
+#id{
+    border: inset 12px #2A4D73;
+    margin-left: 8%;
+    margin-top: 220px;
+}
+.social img{ margin-right: 1px;  float: right; }
+#social{  
+    width: 50px; 
+    border-radius: 62px; 
+    padding: 10px;
+}
+#slogan{
+    width: 380px;
+    height: 150px;
+    margin-left: -1px;
+}
+
+
 
 
