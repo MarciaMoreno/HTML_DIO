@@ -170,3 +170,15 @@ form select option{
     font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+form textarea{
+    border-radius: 22px;
+}
+form button{
+    padding: 20px;
+    border-radius: 22px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #5A7389;
+    color: #fff;
+    opacity: 0.9;
+}
