@@ -87,6 +87,10 @@ body{
 td img #quadro2{
     width:50px;
 }
+.nome{
+    background-color: aliceblue;
+    opacity: 0.8;
+}
 .section{
     margin-top: 220px;
     float: right;
