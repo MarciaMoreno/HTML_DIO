@@ -61,27 +61,29 @@
                     </div>
                 </header>
                 <section>
-                    <form>
-                        <label>Nome Completo: </label><input type="text"><br>
-                        <label>e-mail: </label><input type="email"><br>
-                        <label>Telefone: </label><input type="text"><br>
-                        <label>Motivo do Contato: </label>
-                            <select name="role" id="seletor-motivo">
-                                <option value="Disponibilidade de Horário">Disponibilidade de Horário</option>
-                                <option value="Agendamento de Consulta">Agendamento de Consulta</option>
-                                <option value="Recolha de documentação">Recolha de documentação</option>
-                                <option value="Emergencia pronto-atendimento">Recolha de documentação</option>
-                                <option value="Agendar raio-x">Agendar raio-x</option>
-                                <option value="Agendar documentação">Agendar documentação</option>
-                                <option value="Serviços de orientação pública">Serviços de orientação pública</option>
-                                <option value="Outros motivos">Outros motivos</option>
-                            </select>
-                            <br><br><br>
-                        <label>Descreva o assunto: </label>
-                            <textarea name="Digite aqui" id="caixa-mensagem" rows="10" cols="50"></textarea>
-                            <br><br><br>
-                        <button type="submit">Enviar</button>
-                        <button type="reset">Limpar</button>                   
+                    <form class="flex" method="post" autocomplete="on" action="mailto:mapat.soad@gmail.com">
+                        <div class="forms">
+                            <label id="label">Nome Completo: </label><br><input type="text"> <br><br><br>
+                            <label id="label">e-mail: </label><br><input type="email"> <br><br><br>
+                            <label id="label">Telefone: </label><br><input type="text"> <br><br><br>
+                            <label id="label">Motivo do Contato: </label><br>
+                                <select name="role" id="seletor-motivo">
+                                    <option value="Disponibilidade de Horário">Disponibilidade de Horário</option>
+                                    <option value="Agendamento de Consulta">Agendamento de Consulta</option>
+                                    <option value="Recolha de documentação">Recolha de documentação</option>
+                                    <option value="Emergencia pronto-atendimento">Recolha de documentação</option>
+                                    <option value="Agendar raio-x">Agendar raio-x</option>
+                                    <option value="Agendar documentação">Agendar documentação</option>
+                                    <option value="Serviços de orientação pública">Serviços de orientação pública</option>
+                                    <option value="Outros motivos">Outros motivos</option>
+                                </select>
+                                <br><br><br>
+                            <label id="label">Descreva o assunto: </label><br>
+                                <textarea name="Digite aqui" id="caixa-mensagem" rows="10" cols="50"></textarea>
+                                <br><br><br>
+                            <button type="submit" name="submit">Enviar</button>
+                            <button type="reset" name="reset">Limpar</button>    
+                        </div>              
                     </form>
                 </section>
             </div>

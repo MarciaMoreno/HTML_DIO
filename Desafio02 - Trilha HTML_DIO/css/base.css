@@ -91,6 +91,12 @@ td img #quadro2{
     background-color: #5A7389;
     color: #fff;
 }
+#label{
+    width: 300px;
+}
+.forms input{
+    line-height: 20px;
+}
 #horario{
     background-color: #DDDCDF;
     font-style: italic;
