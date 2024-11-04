@@ -94,8 +94,9 @@ td img #quadro2{
 #label{
     width: 300px;
 }
+.forms{ margin-left: 150px; }
 .forms input{
-    line-height: 20px;
+    
 }
 #horario{
     background-color: #DDDCDF;
@@ -135,4 +136,16 @@ td img #quadro2{
     text-align: center;
     padding: 20px;
     margin-top: 10%;
+}
+table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    border: solid #666 1px;
+    margin-left: 5%;
+}
+thead{
+    background-color: #5A7389;
+    color: #fff;
+    padding: 20px;
 }
