@@ -95,7 +95,7 @@ sobre-nos.html*/
 /*FORMATANDO SECTION*************************************************************************
 index.html - 04/11/2024 */
 
-.section{  margin-top: 20%; padding-right: 2px; }
+.section{  margin-top: 20%; }
 .section p { background-color: #C9D1DC; opacity: 0.8;}
 #quadro{
     margin-top: 10%;
@@ -106,9 +106,61 @@ index.html - 04/11/2024 */
 /*********************************************************************************************
 /*FORMATANDO SECTION*************************************************************************
 atendimento.html - 04/11/2024 */
-section{ margin-left: 10%;}
+
+section table{ margin-left: 5%;}
 table{
     width: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+thead{
+    background-color: #5A7389;
+    color: #fff;
+    padding: 20px;
+}
+#dia-semana{ background-color: #5A7389; color: #fff; }
+#horario{
+    background-color: #ebebeb;
+    font-style: italic;
+    color: #5A7389;
+}
+#nome{ background-color: #eceef9; opacity: 0.8;}
+
+/*********************************************************************************************
+/*FORMATANDO SECTION*************************************************************************
+contato.html - 04/11/2024 */
+
+form input{
+    padding: 12px;
+    width: 500px;
+    border-radius: 22px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form label{
+    background-color: #5A7389 ;
+    color: #fff;
+    font-size: 22px;
+    width: 200px;
+    border-radius: 22px;
+}
+form select option{
+    padding: 12px;
+    width: 500px;
+    border-radius: 22px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form textarea{ border-radius: 22px; }
+form button{
+    padding: 20px;
+    border-radius: 22px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #5A7389;
+    color: #fff;
+    opacity: 0.9;
 }
 
 
