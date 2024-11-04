@@ -87,7 +87,16 @@ body{
 td img #quadro2{
     width:50px;
 }
-.nome{
+#dia-semana{
+    background-color: #5A7389;
+    color: #fff;
+}
+#horario{
+    background-color: #DDDCDF;
+    font-style: italic;
+    color: #5A7389;
+}
+#nome{
     background-color: aliceblue;
     opacity: 0.8;
 }
