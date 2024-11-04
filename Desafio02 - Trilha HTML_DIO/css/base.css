@@ -45,6 +45,7 @@ sobre-nos.html*/
     color: #fff;
     background-color: #5A7389;
     border-radius: 20%;
+    font-weight: 200;
 }
 #boton:hover{  background-color:#2A4D73; color: aliceblue; }
 #id{
@@ -54,6 +55,7 @@ sobre-nos.html*/
 }
 .social img{ margin-right: 1px;  float: right; }
 #social{  
+    margin-top: 5%;
     width: 50px; 
     border-radius: 62px; 
     padding: 10px;
@@ -62,6 +64,18 @@ sobre-nos.html*/
     width: 380px;
     height: 150px;
     margin-left: -1px;
+}
+.lema h1{ 
+    font-family: 'Impact','Arial Narrow Bold', sans-serif; 
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 200;
+    color: #2A4D73;
+}
+.lema blockquote{ 
+    text-align: center; 
+    font-size: 22px; 
+    color: #2A4D73;
 }
 
 
