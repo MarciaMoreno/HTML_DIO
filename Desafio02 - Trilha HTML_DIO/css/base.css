@@ -149,3 +149,24 @@ thead{
     color: #fff;
     padding: 20px;
 }
+form input{
+    padding: 12px;
+    width: 500px;
+    border-radius: 22px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form label{
+    background-color: #5A7389 ;
+    color: #fff;
+    font-size: 22px;
+    width: 200px;
+    border-radius: 22px;
+}
+form select option{
+    padding: 12px;
+    width: 500px;
+    border-radius: 22px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -62,9 +62,26 @@
                 </header>
                 <section class="flex">
                     <div class="col7 forms">
-                        <form method="pos" autocomplete="on" action="mailto:mapat.soad@gmail.com">
-                            <label id="label" for="name">Nome Completo</label><br>
-                                <input height="500px" type="text" name="">
+                        <form method="post" autocomplete="on" action="mailto:mapat.soad@gmail.com">
+                            <label for="name">&nbsp;&nbsp;&nbsp;Nome Completo:&nbsp;&nbsp;&nbsp;</label><br>
+                                <input type="text" name="name"><br><br>
+                            <label for="telefone">&nbsp;&nbsp;&nbsp;Celular para Contato:&nbsp;&nbsp;&nbsp;</label>
+                                <input type="text" name="telefone"><br><br>
+                            <label for="email">&nbsp;&nbsp;&nbsp;E-mail:&nbsp;&nbsp;&nbsp;</label><br>
+                                <input type="email" name="email"><br><br>
+                            <label for="message">&nbsp;&nbsp;&nbsp;Motivo do Contato:&nbsp;&nbsp;&nbsp;</label><br>
+                                <select name="role">
+                                    <option value=" ">Selecione abaixo...</option>
+                                    <option value="Agendamento de Consultas">Agendamento de Consultas</option>
+                                    <option value="Agendamento de Raio-x"></option>
+                                    <option value="Agendamento Documentação"></option>
+                                    <option value="Retirada documentação"></option>
+                                    <option value="Consulta por Especialidade"></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
                         </form>
                     </div>
                 </section>
