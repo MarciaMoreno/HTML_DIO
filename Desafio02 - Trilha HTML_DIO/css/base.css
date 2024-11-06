@@ -13,7 +13,7 @@ h2,h3,h4,h5{
 p{
     text-indent: 32px;
     padding: 15px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
 }
@@ -121,7 +121,7 @@ thead{
 }
 #dia-semana{ background-color: #5A7389; color: #fff; }
 #horario{
-    background-color: #ebebeb;
+    background-color: #eceef9;
     font-style: italic;
     color: #5A7389;
 }
@@ -162,7 +162,17 @@ form button{
     color: #fff;
     opacity: 0.9;
 }
-
+/*********************************************************************************************
+/*FORMATANDO SECTION*************************************************************************
+sobre-nos.html - 04/11/2024 */
+.artigo p{
+    background-color: #eceef9;
+    opacity: 0.8;
+}
+.artigo strong{
+    font-size: 32px;
+    text-align: center;
+}
 
 /*********************************************************************************************
 /*FORMATANDO O FOOTER*************************************************************************
