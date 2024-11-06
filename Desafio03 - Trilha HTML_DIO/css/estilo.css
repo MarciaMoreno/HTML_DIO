@@ -1,86 +1,19 @@
-/*************************************************************************************************************************************/
-/******* FORMATANDO O BODY ****************************************/
+/*********************************************************************************************************************************/
+/******* FORMATANDO O BODY *******************************************************************************************************/
 
-a{ text-decoration: none;}
-a:link{ color: #DCE7DF; }
-a:visited{ color: #DCE7DF; }
-a:active{  color: #DCE7DF;}
-body{ background-color: #27374C;}
-ul li{ list-style: none;}
 
+    a:link{  }
+    a:visited{  }
+    a:active{  }
+    ul li{ list-style: none; }
+    p{ text-indent: 32px; text-align: justify;}
 /*Formatando o sentido para o horizonte da página***/
-.flex{  
-    flex-wrap: wrap; 
-    display: flex; 
-    max-width: 100%; 
-    margin: 0 auto;
-}
+    .flex{  
+        flex-wrap: wrap; 
+        display: flex; 
+        max-width: 100%; 
+        margin: 0 auto;
+    }
 /*Formatando o sentido para a vertical da página****/
-.col1{ width: 120px;}.col2{ width: 240px;}.col3{ width: 360px;}.col4{ width: 480px;}.col5{ width: 600px;}	.col6{ width: 60%;}	
-.col7{ width: 840px;}.col8{ width: 960px;}.col9{ width: 1080px;}.col10{ width: 1200px;}
-
-/**********************************************************************************************************************************/
-/***** FONTES DO GOOGLE *************************************************************************************************************/
-.poiret-one-regular {
-    font-family: "Poiret One", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-
-/**********************************************************************************************************************************/
-/***** FORMATANDO O MENU LATERAL *************************************************************************************************************/
-#logo{
-    border-radius: 200px;
-    margin-left: 15%;
-}
-.menu-lateral{
-    background-color: #21788F;
-    color: #fff;
-}
-.menu-lateral ul li{
-    font-family: Lucida Sans Typewriter;
-    font-size: 22px;
-    line-height: 40px;
-}
-.menu-lateral li:hover{
-    text-decoration: underline;
-    color: #fff;
-}
-h2{
-    font-family: "Poiret One", sans-serif;
-    letter-spacing: 2px;
-    text-align: center;
-    background-color: #90CBCF;
-    padding: 10px;
-}
-/**********************************************************************************************************************************/
-/***** FORMATANDO O HEADER *************************************************************************************************************/
-.buscador{  padding: 20px; }
-.main header ul li{
-    display: inline;
-    padding: 10px;
-    background-color: #21788F;
-}
-#gsearch{ 
-    width: 320px; 
-    line-height: 28px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-    border-radius: 22px;
-    padding: 15px;
-}
-#buton-search{
-    background-color: #90CBCF;
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 20px;
-    border-radius: 20px;
-}
-
-
-
-
-
-
-
+    .col1{ width: 120px;}.col2{ width: 240px;}.col3{ width: 360px;}.col4{ width: 480px;}.col5{ width: 600px;}	.col6{ width: 60%;}	
+    .col7{ width: 840px;}.col8{ width: 960px;}.col9{ width: 1080px;}.col10{ width: 1200px;}
