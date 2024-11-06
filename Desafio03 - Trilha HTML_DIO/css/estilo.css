@@ -5,7 +5,7 @@ a{ text-decoration: none;}
 a:link{ color: #DCE7DF; }
 a:visited{ color: #DCE7DF; }
 a:active{  color: #DCE7DF;}
-body{ background-color: #6C888E;}
+body{ background-color: #27374C;}
 ul li{ list-style: none;}
 
 /*Formatando o sentido para o horizonte da página***/
@@ -54,6 +54,9 @@ h2{
     background-color: #90CBCF;
     padding: 10px;
 }
+/**********************************************************************************************************************************/
+/***** FORMATANDO O HEADER *************************************************************************************************************/
+
 
 
 
