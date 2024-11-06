@@ -1,0 +1,21 @@
+/*************************************************************************************************************************************/
+/******* FORMATANDO O BODY ****************************************/
+
+a{ text-decoration: none;}
+a:hover{ }
+a:link{ }
+a:visited{ }
+a:active{ }
+
+ul li{ list-style: none;}
+
+/*Formatando o sentido para o horizonte da página***/
+.flex{  
+    flex-wrap: wrap; 
+    display: flex; 
+    max-width: 100%; 
+    margin: 0 auto;
+}
+/*Formatando o sentido para a vertical da página****/
+.col1{ width: 120px;}.col2{ width: 240px;}.col3{ width: 360px;}.col4{ width: 480px;}.col5{ width: 600px;}	.col6{ width: 60%;}	
+.col7{ width: 840px;}.col8{ width: 960px;}.col9{ width: 1080px;}.col10{ width: 1200px;}
