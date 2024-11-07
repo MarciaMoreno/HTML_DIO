@@ -1,14 +1,24 @@
+/**********************************************************************************************************************************/
+/***** FONTES DO GOOGLE ***********************************************************************************************************/
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
 /*********************************************************************************************************************************/
 /******* FORMATANDO O BODY *******************************************************************************************************/
-    a:link{ text-decoration: none; }    
+    a:link{ text-decoration: none; } 
+    a:hover{ text-decoration: underline;}   
     ul li{ list-style: none; }
     p{ text-indent: 32px; text-align: justify;}
-    body{
-        background-color: #E9F1EB;
-        width: 1200px;
-        float: center;
-        margin-left: 10%;
-    }
+    html, body { height: 100%;  }    
+    body {
+        max-width: 1200px;
+        padding: 0;
+        margin: 0 auto !important;
+    }    
+    div { height: 100%; }
     
 /*Formatando o sentido para o horizonte da página***/
     .flex{  
@@ -21,88 +31,19 @@
     .col1{ width: 10%;}.col2{ width: 20%;}.col3{ width: 30%;}.col4{ width: 40%;}.col5{ width: 50%;}	.col6{ width: 60%;}	
     .col7{ width: 70%;}.col8{ width: 80%;}.col9{ width: 90%;}.col10{ width: 100%;}
 
-/**********************************************************************************************************************************/
-/***** FONTES DO GOOGLE ***********************************************************************************************************/
-.poiret-one-regular {
-    font-family: "Poiret One", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
+
 
 /*********************************************************************************************************************************/
 /******* FORMATANDO O MENU LATERAL *******************************************************************************************************/
-.menu-lateral{ background-color: #26364B;}
-.menu-lateral a{ 
-    color:#E9F1EB; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    line-height: 32px;
-    letter-spacing: 2px;
-}
-.menu-lateral a:visited{ color:#E9F1EB;  }
-.menu-lateral a:active{ color:#E9F1EB;  }
-.menu-lateral a:hover{ text-decoration: underline;}
-.menu-lateral h2{ text-align: center; background-color: #30D0E2; padding: 12px; font-family: "Poiret One", sans-serif;}
+
 
 /*********************************************************************************************************************************/
 /******* FORMATANDO O MAIN - HEADER *******************************************************************************************************/
 
-#buton-search{
-    padding: 2% 4% 2% 4%;
-    color: #26364B;
-    background-color: #30D0E2;
-    font-size: 18px;
-    font-family: "Poiret One", sans-serif;
-    font-weight: 600;
-    border: inset 4px #E9F1EB;
-    border-radius: 22%;
-}
-#buton-search:hover{ color: #fff; background-color: #26364B;}
-.buscador{ margin: 2%; } 
-#gsearch {border: inset 6px #30D0E2; line-height: 30px; font-size: 16px; padding: 2%; }
-.main header{ background-color: #247388; }
-.main ul li{ display: inline;}
-.menu-header01{  margin-left: 14%;}
-.menu-header01 a{ color: #E9F1EB; padding: 2%;}
-.menu-header01 a:hover{ color: #30D0E2;}
-.menu-header02 { text-align: center; margin-left: 10%;    }
-.menu-header02 ul li{ 
-    padding: 16px; 
-    font-family: "Poiret One", sans-serif; 
-    font-size: 28px;     
-}
-.menu-header02 a{ color: #E9F1EB; }
-.menu-header02 a:hover{ text-decoration: underline;}
-.menu-header02 a:visited{ color: #E9F1EB;}
-.menu-header02 a:active { color: #E9F1EB;}
+.main header ul li { display: inline-block; padding: 10px; }
+
 /*********************************************************************************************************************************/
 /******* FORMATANDO O MAIN - SECTION *******************************************************************************************************/
 
-.lemas{ padding: 4%; text-align: center;}
-.lemas span {  font-size: 22px; }
-.lemas a{ font-size: 22px; font-weight: bold;}
-.lemas a:hover{ text-decoration:  underline;}
-
-.menu-main ul li{
-    padding: 20px;    
-    font-weight: 600;
-    font-family: "Poiret One", sans-serif; 
-    text-align: center;
-    line-height: 72px;
-    background-color: #26364B;
-}
-.menu-main a{ color: #E9F1EB; padding: 10px; }
-.menu-main a:hover{ background-color: #30D0E2; color:#26364B ; }
-
-.bloco01{
-    background-color: #247388;
-    color: #E9F1EB;
-    padding-left: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 100;
-}
-.bloco01 h1{ font-style: italic;}
-
-
-
-
+.lemas ul li{ display: inline-block;}
+.menu-principal ul li{ display: inline-block; padding: 10px;}
