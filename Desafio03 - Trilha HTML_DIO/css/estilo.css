@@ -7,6 +7,10 @@
     a:active{  }
     ul li{ list-style: none; }
     p{ text-indent: 32px; text-align: justify;}
+    body{
+        background-color: #E9F1EB;
+    }
+    
 /*Formatando o sentido para o horizonte da página***/
     .flex{  
         flex-wrap: wrap; 
@@ -18,4 +22,38 @@
     .col1{ width: 120px;}.col2{ width: 240px;}.col3{ width: 360px;}.col4{ width: 480px;}.col5{ width: 600px;}	.col6{ width: 60%;}	
     .col7{ width: 840px;}.col8{ width: 960px;}.col9{ width: 1080px;}.col10{ width: 1200px;}
 
-.main ul li{ display: inline; padding: 2%;}
+/**********************************************************************************************************************************/
+/***** FONTES DO GOOGLE ***********************************************************************************************************/
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+/*********************************************************************************************************************************/
+/******* FORMATANDO O MENU LATERAL *******************************************************************************************************/
+.menu-lateral{ background-color: #26364B;}
+.menu-lateral a{ 
+    color:#E9F1EB; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+.menu-lateral a:hover{ text-decoration: underline;}
+.menu-lateral h2{ text-align: center; background-color: #30D0E2; padding: 12px; font-family: "Poiret One", sans-serif;}
+
+/*********************************************************************************************************************************/
+/******* FORMATANDO O MAIN - HEADER *******************************************************************************************************/
+
+.buscador{ padding: 10px;}
+.main header{ background-color: #247388; }
+.main ul li{ display: inline;}
+
+
+
+
+
+
+
+
+
