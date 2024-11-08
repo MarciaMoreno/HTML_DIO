@@ -140,6 +140,7 @@ figcaption {
     margin-top: -50%;
     margin-right: -200%;
  }
+ .icon figcaption:hover{ text-decoration: underline; font-weight: bold;}
  #icon { margin-left: -45%;}
 
  /*********************************************************************************************************************************/
