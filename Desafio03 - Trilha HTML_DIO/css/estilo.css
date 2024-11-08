@@ -5,6 +5,12 @@
     font-weight: 600;
     font-style: normal;
   }
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }  
+  
 
 /*********************************************************************************************************************************/
 /******* FORMATANDO O BODY *******************************************************************************************************/
@@ -18,8 +24,7 @@
         padding: 0;
         margin: 0 auto !important;
     }    
-    div { height: 100%; }
-    
+        
 /*Formatando o sentido para o horizonte da página***/
     .flex{  
         flex-wrap: wrap; 
@@ -31,11 +36,21 @@
     .col1{ width: 10%;}.col2{ width: 20%;}.col3{ width: 30%;}.col4{ width: 40%;}.col5{ width: 50%;}	.col6{ width: 60%;}	
     .col7{ width: 70%;}.col8{ width: 80%;}.col9{ width: 90%;}.col10{ width: 100%;}
 
-
-
 /*********************************************************************************************************************************/
 /******* FORMATANDO O MENU LATERAL *******************************************************************************************************/
-
+.menu-lateral{ background-color: #26364B;}
+.menu-lateral a{ 
+    color:#E9F1EB; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+.menu-lateral a:visited{ color:#E9F1EB;  }
+.menu-lateral a:active{ color:#E9F1EB;  }
+.menu-lateral h2{ text-align: center; background-color: #30D0E2; padding: 12px; font-family: "Poiret One", sans-serif;}
 
 /*********************************************************************************************************************************/
 /******* FORMATANDO O MAIN - HEADER *******************************************************************************************************/
