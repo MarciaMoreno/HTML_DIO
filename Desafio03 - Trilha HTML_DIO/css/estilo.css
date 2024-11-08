@@ -20,11 +20,16 @@
     p{ text-indent: 32px; text-align: justify;}
     html, body { height: 100%;  }    
     body {
+        background-color: #E9F1EB;
         max-width: 1200px;
         padding: 0;
         margin: 0 auto !important;
     }    
-        
+    body p, blockquote{ 
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal; 
+    }    
 /*Formatando o sentido para o horizonte da página***/
     .flex{  
         flex-wrap: wrap; 
@@ -54,13 +59,85 @@
 
 /*********************************************************************************************************************************/
 /******* FORMATANDO O MAIN - HEADER *******************************************************************************************************/
+#buton-search{
+    padding: 2% 4% 2% 4%;
+    color: #26364B;
+    background-color: #30D0E2;
+    font-size: 18px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    border: inset 4px #E9F1EB;
+    border-radius: 22%;
+    margin-left: -3%;
+}
+#buton-search:hover{ color: #fff; background-color: #26364B;}
+#gsearch {border: inset 6px #30D0E2; line-height: 30px; font-size: 16px; padding: 2%; margin: 2%; border-radius: 22%; }
 
+.main header{ background-color: #247388;}
 .main header ul li { display: inline-block; padding: 10px; }
+.menu01{ padding-left: 14%;}
+.menu01 a { color: #E9F1EB; font-size: 16px;}
+.menu02 a { font-family: "Poiret One", sans-serif; font-size: 22px; color: #E9F1EB; font-weight: 600;}
+
 
 /*********************************************************************************************************************************/
 /******* FORMATANDO O MAIN - SECTION *******************************************************************************************************/
-
+figcaption {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+.lemas{ padding: 4%; text-align: center;}
+.lemas span {  font-size: 22px; }
+.lemas a{ font-size: 22px; font-weight: bold;}
 .lemas ul li{ display: inline-block;}
-.menu-principal ul li{ display: inline-block; padding: 10px;}
 
+.menu-principal a{ 
+    line-height: 28px;
+    border-bottom-width: 12px ;
+    border-bottom-color: #247388;
+    background-color: transparent;
+    box-shadow: inset 3px 9px 19px #247388;
+    border-radius: 22%;
+    padding: 22px;
+}
+.menu-principal a:hover{ box-shadow: inset 3px 9px 19px #26364B; }
+.menu-principal ul li{ display: inline-block; padding: 10px; color: #E9F1EB;}
+#destaque a{ 
+    color: #E9F1EB; 
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+#destaque{
+    margin-top: 10%;
+    background-color: #247388;
+    padding-left: 5%;
+    color: #E9F1EB;
+}
+#destaque figcaption { width: 200px;}
+#destaque h1{ font-size: 30px;}
 #icon{  width: 80px; border-radius: 80%; border: dashed 2px rgb(134, 138, 166);}
+
+.bloco{ padding: 5%;}
+.bloco h2{ background-color: #247388; padding: 12px; color: #E9F1EB; width: 800px; } 
+.bloco a{ 
+    color: #26364B;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+ }
+
+ #voce-sabia{ margin-left: 25%;}
+ #saxfone{ margin-left: 10%;}
+ .lado-bloco{
+    margin-top: 10%;
+    padding-left: 2%;
+    width: 380px;
+ }
+ .lado-bloco strong { font-style: italic; font-size: 16px;}
+ .icon figcaption{
+    padding: 10px;
+    margin-top: -50%;
+    margin-right: -200%;
+ }
+ #icon { margin-left: -45%;}
