@@ -141,3 +141,12 @@ figcaption {
     margin-right: -200%;
  }
  #icon { margin-left: -45%;}
+
+ /*********************************************************************************************************************************/
+/******* FORMATANDO - Footer *******************************************************************************************************/
+ footer{ margin-top: 5%; background-color: #247388; padding: 4%; }
+ footer p { text-align: center; color: #E9F1EB;}
+ footer blockquote{ text-align: center; color: #E9F1EB; font-size: 22px;}
+ footer a{ color: #E9F1EB; text-align: center; }
+ footer ul li{  display: inline; font-size: 22px; }
+ 
